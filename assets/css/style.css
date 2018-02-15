@@ -1,0 +1,27 @@
+.ContactBox {
+background-color: lightblue;
+width: 317px;
+border: 25px solid green;
+padding: 25px;
+margin: 25px;
+};
+
+
+.GoogleMap
+{
+  position: relative;
+  height: 300;
+  width: 500;
+  top: 100;
+
+};
+
+
+.kontakbox{
+  position: relative;
+  top: 300;
+  padding: 200;
+  margin: 200;
+  width: 140;
+  height: 290;
+}
