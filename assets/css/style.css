@@ -122,4 +122,8 @@ a {
 
 main {
   background: red;
+  position: absolute;
+  top: 60px;
+  bottom: 50px;
+  width: 100%;
 }
