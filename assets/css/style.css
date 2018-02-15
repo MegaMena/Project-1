@@ -23,7 +23,7 @@ header {
 #logo {
   float: left;
   max-height: 75%;
-  padding: 10px;
+  padding: 8px;
 }
 
 nav ul {
@@ -121,7 +121,7 @@ a {
 }
 
 main {
-  background: red;
+  background: #b6dfff;
   position: absolute;
   top: 60px;
   bottom: 50px;
