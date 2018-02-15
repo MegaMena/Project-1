@@ -75,3 +75,11 @@ a {
   color: white;
   float: right;
 }
+
+
+.aside
+{
+  position: relative;
+  vertical-align: right;
+  float: left;
+}
