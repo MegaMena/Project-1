@@ -16,6 +16,10 @@ header {
   z-index: 1;
 }
 
+.active {
+  color: grey;
+}
+
 #logo {
   float: left;
   max-height: 75%;
@@ -109,10 +113,13 @@ a {
   float: right;
 }
 
-
 .aside
 {
   position: relative;
   vertical-align: right;
   float: left;
+}
+
+main {
+  background: red;
 }
