@@ -37,7 +37,7 @@ nav li {
     margin-top: 9px;
     float: right;
     display: block;
-    border-right: 1px solid grey;
+    border-right: 1px solid lightgrey;
 }
 
 nav li:first-child {
