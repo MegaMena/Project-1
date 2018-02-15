@@ -16,6 +16,12 @@ header {
   z-index: 1;
 }
 
+#logo {
+  float: left;
+  max-height: 75%;
+  padding: 10px;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -24,9 +30,14 @@ nav ul {
 }
 
 nav li {
+    margin-top: 9px;
     float: right;
     display: block;
+    border-right: 1px solid grey;
+}
 
+nav li:first-child {
+  border-right: none;
 }
 
 nav li a {
@@ -38,7 +49,14 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: grey;
+  color: grey;
+}
+
+video {
+   width: auto;
+   max-height: 600px;
+   display: block;
+   margin: 0 auto;
 }
 
 #about-campaign {
@@ -59,7 +77,13 @@ nav li a:hover {
   width: 100%;
   background-color: #e1f2ff;
   height: 500px;
+}
 
+#text-area-2 {
+  width: 50%;
+  height: 450px;
+  left: 0px;
+  position: absolute;
 }
 
 #work {
