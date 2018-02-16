@@ -168,9 +168,9 @@ p {
   height: 410px;
   padding:45px;
   margin:993px;
-  background-color: blue;
+  background-color: #b6dfff;
   float: right;
-  top: -896;
+  top: -897px;
 
 }
 
@@ -192,7 +192,7 @@ p {
   float: right;
   position: absolute;
   padding:536px;
-  top: -336px;
+  top: -420px;
   margin:-20px;
 
 }
@@ -207,3 +207,11 @@ p {
   width: 100%;
 
 };
+
+.textbox
+{
+  width: 25px;
+  height: 78px;
+  top: 79px;
+  position: relative;
+}
