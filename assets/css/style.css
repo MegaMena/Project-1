@@ -121,10 +121,9 @@ a {
   float: right;
 }
 
-section {
+#this-is-us-section {
   position: absolute;
-  top: 60px;
-  bottom: 50px;
+  height: 100%;
   width: 100%;
 }
 
@@ -134,7 +133,31 @@ section {
   height: 50px;
   left: 0;
   bottom: 0;
-  position: absolute;
+  position: fixed;
+}
+
+#this-is-us-image {
+  max-width: 100%;
+  height: 500px;
+  position: relative;
+  left: 100px;
+  top: 160px;
+}
+
+#this-is-us-article {
+  margin-right: 400px;
+  position: relative;
+  left: 150px;
+  top: 100px;
+  float: right;
+}
+
+#p-this-is-us {
+  width: 450px;
+}
+
+p {
+  font-size: 18px;
 }
 
 #kasse
