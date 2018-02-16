@@ -181,10 +181,11 @@ p {
 
 .GoogleMap{
   width: 912px;
-  height: 9px;
+  height: 19px;
   float: right;
   position: relative;
-  top:-15px
+  top: 17px;
+  margin:-20px;
 
 }
 
@@ -192,7 +193,7 @@ p {
 .kontaktSection
 {
   position: relative;
-  padding-bottom:960px;
+  padding-bottom:584px;
   top: 63px;
   bottom: 50px;
   width: 100%;
