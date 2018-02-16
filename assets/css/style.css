@@ -163,12 +163,14 @@ p {
 
 #kasse
 {
-  position: relative;
-  width: 462px;
-  height: 493px;
+  position: absolute;
+  width: 389px;
+  height: 410px;
+  padding:45px;
+  margin:993px;
   background-color: blue;
   float: right;
-  top: - 24px;
+  top: -896;
 
 }
 
@@ -176,10 +178,10 @@ p {
 #kontakbox{
   width: 430px;
   height: 435px;
-  padding: 494px;
+  padding: 319px;
   float: left;
-  position: fixed;
-  top: -230px;
+  position: absolute;
+  top: -121px;
 
 }
 
@@ -188,8 +190,9 @@ p {
   width: 912px;
   height: 19px;
   float: right;
-  position: relative;
-  top: 17px;
+  position: absolute;
+  padding:536px;
+  top: -336px;
   margin:-20px;
 
 }
