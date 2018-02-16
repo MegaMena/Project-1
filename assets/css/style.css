@@ -168,7 +168,7 @@ p {
   height: 500px;
   background-color: #b6dfff;
   float: right;
-  left: 750px;
+  left: 996px;
   top: 80px;
 }
 
@@ -178,8 +178,9 @@ p {
   height: 435px;
   padding: 61px;
   float: left;
+  left:171px;
   position: absolute;
-  top: 66px;
+  top: 123px;
 
 }
 
@@ -189,7 +190,7 @@ p {
   height: 500px;
   float: right;
   position: absolute;
-  left: 255px;
+  left: 479px;
   top: 80px;
 }
 
