@@ -14,6 +14,7 @@ header {
   left: 0;
   right: 0;
   z-index: 1;
+  border-bottom: 1px solid whitesmoke;
 }
 
 .active {
@@ -120,7 +121,7 @@ a {
   float: right;
 }
 
-main {
+section {
   position: absolute;
   top: 60px;
   bottom: 50px;
@@ -138,9 +139,15 @@ main {
 
 #kasse
 {
-  width: 250px;
-  height: 300px;
+  width: 430px;
+  height: 508px;
   background-color: blue;
-  float: left;
 
+}
+
+
+#kontakbox{
+  width: 430px;
+  height: 400px;
+  float: left;
 }
