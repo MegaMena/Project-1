@@ -163,41 +163,53 @@ p {
 
 #kasse
 {
-  position: relative;
-  width: 462px;
-  height: 493px;
-  background-color: blue;
+  position: absolute;
+  width: 414px;
+  height: 500px;
+  background-color: #b6dfff;
   float: right;
-  top: - 24px;
-
+  left: 750px;
+  top: 80px;
 }
 
 
 #kontakbox{
   width: 430px;
-  height: 400px;
+  height: 435px;
+  padding: 61px;
   float: left;
+  position: absolute;
+  top: 66px;
+
 }
 
 
 .GoogleMap{
-  width: 912px;
-  height: 9px;
+  width: 300px;
+  height: 500px;
   float: right;
-  position: relative;
-  top:-15px
-
+  position: absolute;
+  left: 255px;
+  top: 80px;
 }
 
 .kontaktSection
 {
+  width: 25px;
+  height: 78px;
+  top: 79px;
   position: relative;
-  padding-bottom:960px;
-  top: 63px;
-  bottom: 50px;
-  width: 100%;
+}
 
-};
+#contact-footer {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+}
+
 
 #linkedin {
   height: 25px;
@@ -208,4 +220,3 @@ p {
 
 .social-icons {
   float: left;
-}
