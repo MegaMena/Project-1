@@ -119,7 +119,7 @@ a {
 {
   position: relative;
   vertical-align: right;
-  float: left;
+  float: right;
 }
 
 #this-is-us-section {
@@ -160,3 +160,42 @@ a {
 p {
   font-size: 18px;
 }
+
+#kasse
+{
+  position: relative;
+  width: 462px;
+  height: 493px;
+  background-color: blue;
+  float: right;
+  top: - 24px;
+
+}
+
+
+#kontakbox{
+  width: 430px;
+  height: 400px;
+  float: left;
+}
+
+
+.GoogleMap{
+  width: 912px;
+  height: 9px;
+  float: right;
+  position: relative;
+  top:-15px
+
+}
+
+
+.kontaktSection
+{
+  position: relative;
+  padding-bottom:960px;
+  top: 63px;
+  bottom: 50px;
+  width: 100%;
+
+};
