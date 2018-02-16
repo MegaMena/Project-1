@@ -139,9 +139,11 @@ section {
 
 #kasse
 {
+  position: relative;
   width: 430px;
   height: 508px;
   background-color: blue;
+  float: right;
 
 }
 
@@ -151,3 +153,23 @@ section {
   height: 400px;
   float: left;
 }
+
+
+.GoogleMap{
+  width: 912px;
+  height: 9px;
+  float: right;
+  position: relative;
+  top:-15px
+
+}
+
+
+#kontaktSection
+{
+  position: absolute;
+  top: 60px;
+  bottom: 50px;
+  width: 100%;
+
+};
