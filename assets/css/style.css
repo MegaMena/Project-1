@@ -175,8 +175,12 @@ p {
 
 #kontakbox{
   width: 430px;
-  height: 400px;
+  height: 435px;
+  padding: 494px;
   float: left;
+  position: fixed;
+  top: -230px;
+
 }
 
 
