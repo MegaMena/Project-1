@@ -140,10 +140,11 @@ section {
 #kasse
 {
   position: relative;
-  width: 430px;
-  height: 508px;
+  width: 462px;
+  height: 493px;
   background-color: blue;
   float: right;
+  top: - 24px;
 
 }
 
@@ -165,10 +166,11 @@ section {
 }
 
 
-#kontaktSection
+.kontaktSection
 {
-  position: absolute;
-  top: 60px;
+  position: relative;
+  padding-bottom:960px;
+  top: 63px;
   bottom: 50px;
   width: 100%;
 
