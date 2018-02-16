@@ -189,7 +189,6 @@ p {
 
 }
 
-
 .kontaktSection
 {
   position: relative;
@@ -199,3 +198,14 @@ p {
   width: 100%;
 
 };
+
+#linkedin {
+  height: 25px;
+  width: auto;
+  flex: auto;
+  flex-direction: row;
+}
+
+.social-icons {
+  float: left;
+}
