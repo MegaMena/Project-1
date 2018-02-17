@@ -73,16 +73,25 @@ video {
 }
 
 #vr-healthcare {
-  max-width: 650px;
+  max-width: 450px;
   width: 100%;
   height: auto;
   float: left;
+  margin-left: 50px;
+  margin-top: 70px;
 
 }
 
 #text-area-1 {
   width: 50%;
-  height: 90%;
+  height: 100%;
+  right: 0px;
+  position: absolute;
+}
+
+#text-area-1-5 {
+  width: 424.5px;
+  height: 500px;
   right: 0px;
   position: absolute;
 }
@@ -130,6 +139,12 @@ video {
 
 h3 {
   margin-left: 250px;
+}
+
+.gallery {
+  width: 50%;
+  height: auto;
+  float: left;
 }
 
 #partners {
@@ -252,7 +267,6 @@ p {
   position: fixed;
 }
 
-
 #linkedin {
   height: 25px;
   width: auto;
@@ -267,5 +281,32 @@ p {
 .link {
   height: 50px;
   width: 100px;
+}
 
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8  {
+  height: auto;
+  width: 23%;
+  padding: 0;
+  margin: 0;
+}
+.image2  {
+  z-index: 1;
+}
+.image3  {
+  z-index: 2;
+}
+.image4  {
+  z-index: 3;
+}
+.image5  {
+  z-index: 4;
+}
+.image6  {
+  z-index: 5;
+}
+.image7  {
+  z-index: 6;
+}
+.image8  {
+  z-index: 7;
 }
