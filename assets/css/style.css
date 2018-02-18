@@ -206,7 +206,7 @@ a {
 }
 
 #this-is-us-article {
-  margin-right: 400px;
+  margin-right: 300px;
   position: relative;
   left: 200px;
   top: 130px;
@@ -317,4 +317,8 @@ p {
     text-align: center;
     background-color: #b6dfff;
     color: black;
+}
+
+#link-this-is-us {
+  color: black;
 }
