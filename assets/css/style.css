@@ -320,3 +320,9 @@ p {
 #link-this-is-us {
   color: black;
 }
+
+#article-link {
+  color: black;
+  float: none;
+  padding: 0;
+}
