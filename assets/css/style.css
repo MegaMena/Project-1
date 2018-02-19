@@ -61,13 +61,13 @@ nav li a:hover {
 #video {
   width: 100%;
   background-color: #b6dfff;
-  height: 600px;
+  height: 599px;
   position: relative;
 }
 
 video {
    width: auto;
-   max-height: 600px;
+   max-height: 599px;
    display: block;
    margin: 0 auto;
 }
@@ -179,20 +179,11 @@ a {
   color: white;
   float: right;
 }
-
-.aside
-{
-  position: relative;
-  vertical-align: right;
-  float: right;
-}
-
 #this-is-us-section {
   position: absolute;
   height: 100%;
   width: 100%;
 }
-
 #footer-this-is-us {
   background-color: black;
   width: 100%;
@@ -201,33 +192,26 @@ a {
   bottom: 0;
   position: fixed;
 }
-
 #this-is-us-image {
   max-width: 100%;
   height: 500px;
   position: relative;
   left: 152px;
-  top: 160px;
+  top: 150px;
+  float: left;
 }
-
 #this-is-us-article {
-  margin-right: 300px;
-  position: relative;
-  left: 200px;
-  top: 130px;
-  float: right;
+  position: absolute;
+  right: 50px;
+  top: 120px;
 }
-
 #p-this-is-us {
   width: 450px;
 }
-
 p {
   font-size: 18px;
 }
-
-#kasse
-{
+#kasse {
   position: absolute;
   width: 414px;
   height: 500px;
@@ -235,10 +219,9 @@ p {
   float: right;
   left: 926px;
   top: 80px;
+  text-align: center;
 }
-
-
-#kontakbox{
+#kontakbox {
   width: 430px;
   height: 435px;
   padding: 0px;
@@ -246,10 +229,7 @@ p {
   left:120px;
   position: absolute;
   top: 100px;
-
 }
-
-
 .GoogleMap{
   width: 300px;
   height: 500px;
@@ -258,7 +238,6 @@ p {
   left: 409px;
   top: 80px;
 }
-
 .kontaktSection
 {
   width: 25px;
@@ -266,7 +245,6 @@ p {
   top: 79px;
   position: relative;
 }
-
 #contact-footer {
   background-color: black;
   width: 100%;
@@ -275,23 +253,19 @@ p {
   bottom: 0;
   position: fixed;
 }
-
 #linkedin {
   height: 25px;
   width: auto;
   flex: auto;
   flex-direction: row;
 }
-
 .social-icons {
   float: left;
-};
-
+}
 .link {
   height: 50px;
   width: 100px;
 }
-
 #gallery-container {
   left: 0;
   display: flex;
@@ -311,23 +285,19 @@ p {
     background-color: #b6dfff;
     z-index: 0;
 }
-
 .gallery img {
     width: 100%;
     height: auto;
 }
-
 .desc {
     padding: 15px;
     text-align: center;
     background-color: #b6dfff;
     color: black;
 }
-
 #link-this-is-us {
   color: black;
 }
-
 #article-link {
   color: black;
   float: none;
