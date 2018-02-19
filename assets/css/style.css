@@ -1,11 +1,9 @@
 html {
 font-family: 'Source Sans Pro', sans-serif;
 }
-
 body {
   margin: 0px;
 }
-
 header {
   background-color: white;
   width: 100%;
@@ -16,36 +14,30 @@ header {
   z-index: 1;
   border-bottom: 1px solid whitesmoke;
 }
-
 .active {
   color: grey;
 }
-
 #logo {
   float: left;
   max-height: 75%;
   padding: 7px;
   padding-left: 40px;
 }
-
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: white;
 }
-
 nav li {
     margin-top: 9px;
     float: right;
     display: block;
     border-right: 1px solid lightgrey;
 }
-
 nav li:first-child {
   border-right: none;
 }
-
 nav li a {
     display: block;
     text-align: center;
@@ -53,32 +45,27 @@ nav li a {
     text-decoration: none;
     color: black;
 }
-
 nav li a:hover {
   color: grey;
 }
-
 #video {
   width: 100%;
   background-color: #b6dfff;
   height: 599px;
   position: relative;
 }
-
 video {
    width: auto;
    max-height: 599px;
    display: block;
    margin: 0 auto;
 }
-
 #about-campaign {
   width: 100%;
   background-color: #b6dfff;
   height: 500px;
   position: relative;
 }
-
 #vr-healthcare {
   max-width: 450px;
   width: 100%;
@@ -86,16 +73,13 @@ video {
   float: left;
   margin-left: 50px;
   margin-top: 70px;
-
 }
-
 #text-area-1 {
   width: 50%;
   height: 100%;
   right: 0px;
   position: absolute;
 }
-
 #text-area-1-5 {
   width: 100%;
   height: 50%;
@@ -106,22 +90,18 @@ video {
   display: flex;
   flex-direction: column;
 }
-
 #mission-vision {
   width: 100%;
   background-color: #e1f2ff;
   height: 500px;
 }
-
 #mission {
   max-width: 650px;
   width: 100%;
   height: auto;
   float: right;
   margin-top: 65px;
-
 }
-
 #text-area-2 {
   margin-top: 42px;
   margin-left: 10px;
@@ -130,7 +110,6 @@ video {
   left: 0px;
   position: absolute;
 }
-
 #work {
   width: 100%;
   background-color: white;
@@ -145,23 +124,18 @@ video {
   padding: 0px;
   display: flex;
   align-self: center;
-
 }
-
-
 .gallery {
   width: 50%;
   height: auto;
   float: left;
 }
-
 #partners {
   width: 600px;
   height: auto;
   float: left;
   margin-left: 30px;
 }
-
 footer {
   background-color: black;
   width: 100%;
@@ -302,4 +276,16 @@ p {
   color: black;
   float: none;
   padding: 0;
+}
+#y {
+  height: 20px;
+}
+#i {
+  height: 20px;
+}
+#f {
+  height: 20px;
+}
+#l {
+  height: 20px;
 }
