@@ -58,6 +58,13 @@ nav li a:hover {
   color: grey;
 }
 
+#video {
+  width: 100%;
+  background-color: #b6dfff;
+  height: 600px;
+  position: relative;
+}
+
 video {
    width: auto;
    max-height: 600px;
@@ -127,7 +134,7 @@ video {
 #work {
   width: 100%;
   background-color: white;
-  height: 1050px;
+  height: 1150px;
 }
 #project {
   margin: 0px;
