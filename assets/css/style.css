@@ -1,11 +1,9 @@
 html {
 font-family: 'Source Sans Pro', sans-serif;
 }
-
 body {
   margin: 0px;
 }
-
 header {
   background-color: white;
   width: 100%;
@@ -16,36 +14,30 @@ header {
   z-index: 1;
   border-bottom: 1px solid whitesmoke;
 }
-
 .active {
   color: grey;
 }
-
 #logo {
   float: left;
   max-height: 75%;
   padding: 7px;
   padding-left: 40px;
 }
-
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: white;
 }
-
 nav li {
     margin-top: 9px;
     float: right;
     display: block;
     border-right: 1px solid lightgrey;
 }
-
 nav li:first-child {
   border-right: none;
 }
-
 nav li a {
     display: block;
     text-align: center;
@@ -53,57 +45,104 @@ nav li a {
     text-decoration: none;
     color: black;
 }
-
 nav li a:hover {
   color: grey;
 }
-
+#video {
+  width: 100%;
+  background-color: #b6dfff;
+  height: 599px;
+  position: relative;
+}
 video {
    width: auto;
-   max-height: 600px;
+   max-height: 599px;
    display: block;
    margin: 0 auto;
 }
-
 #about-campaign {
   width: 100%;
   background-color: #b6dfff;
   height: 500px;
   position: relative;
 }
-
+#vr-healthcare {
+  max-width: 450px;
+  width: 100%;
+  height: auto;
+  float: left;
+  margin-left: 50px;
+  margin-top: 70px;
+}
 #text-area-1 {
   width: 50%;
-  height: 450px;
+  height: 100%;
   right: 0px;
   position: absolute;
 }
-
+#text-area-1-5 {
+  width: 100%;
+  height: 50%;
+  right: 0px;
+  position: absolute;
+  text-align: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+}
 #mission-vision {
   width: 100%;
   background-color: #e1f2ff;
   height: 500px;
 }
-
+#mission {
+  max-width: 650px;
+  width: 100%;
+  height: auto;
+  float: right;
+  margin-top: 65px;
+}
 #text-area-2 {
+  margin-top: 42px;
+  margin-left: 10px;
   width: 50%;
   height: 450px;
   left: 0px;
   position: absolute;
 }
-
 #work {
   width: 100%;
   background-color: white;
-  height: 500px;
+  height: 1150px;
 }
-
+#project {
+  margin: 0px;
+}
+#project-link {
+  color: black;
+  text-decoration: underline;
+  padding: 0px;
+  display: flex;
+  align-self: center;
+}
+.gallery {
+  width: 50%;
+  height: auto;
+  float: left;
+}
+#partners {
+  width: 600px;
+  height: auto;
+  float: left;
+  margin-left: 30px;
+}
 footer {
   background-color: black;
   width: 100%;
   height: 50px;
   left: 0;
   bottom: 0;
+  z-index: 1
 }
 
 a {
@@ -114,20 +153,11 @@ a {
   color: white;
   float: right;
 }
-
-.aside
-{
-  position: relative;
-  vertical-align: right;
-  float: right;
-}
-
 #this-is-us-section {
   position: absolute;
   height: 100%;
   width: 100%;
 }
-
 #footer-this-is-us {
   background-color: black;
   width: 100%;
@@ -136,64 +166,64 @@ a {
   bottom: 0;
   position: fixed;
 }
-
 #this-is-us-image {
   max-width: 100%;
   height: 500px;
   position: relative;
   left: 152px;
-  top: 160px;
+  top: 150px;
+  float: left;
 }
-
 #this-is-us-article {
-  margin-right: 400px;
-  position: relative;
-  left: 200px;
-  top: 130px;
-  float: right;
+  position: absolute;
+  right: 50px;
+  top: 120px;
 }
-
 #p-this-is-us {
   width: 450px;
 }
-
 p {
   font-size: 18px;
 }
-
-#kasse
-{
+#kasse {
   position: absolute;
   width: 414px;
   height: 500px;
   background-color: #b6dfff;
   float: right;
+<<<<<<< HEAD
   left: 944px;
+=======
+  left: 926px;
+>>>>>>> 29581d7ce5df229dc36e2e280fd4b8813b56dce9
   top: 80px;
+  text-align: center;
 }
-
-
-#kontakbox{
+#kontakbox {
   width: 430px;
   height: 435px;
-  padding: 61px;
+  padding: 0px;
   float: left;
+<<<<<<< HEAD
   left:80px;
+=======
+  left:120px;
+>>>>>>> 29581d7ce5df229dc36e2e280fd4b8813b56dce9
   position: absolute;
-  top: 123px;
-
+  top: 100px;
 }
-
-
 .GoogleMap{
-  width: 300px;
+  width: 400px;
   height: 500px;
   float: right;
   position: absolute;
+<<<<<<< HEAD
   left: 412px;
+=======
+  left: 409px;
+>>>>>>> 29581d7ce5df229dc36e2e280fd4b8813b56dce9
   top: 80px;
 }
-
 .kontaktSection
 {
   width: 25px;
@@ -201,7 +231,6 @@ p {
   top: 79px;
   position: relative;
 }
-
 #contact-footer {
   background-color: black;
   width: 100%;
@@ -210,15 +239,65 @@ p {
   bottom: 0;
   position: fixed;
 }
-
-
 #linkedin {
   height: 25px;
   width: auto;
   flex: auto;
   flex-direction: row;
 }
-
 .social-icons {
   float: left;
-};
+}
+.link {
+  height: 50px;
+  width: 100px;
+}
+#gallery-container {
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 82%;
+  height: 50%;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 9%;
+}
+.gallery {
+    margin: 0.25%;
+    border: 1px solid #ccc;
+    float: left;
+    width: 24%;
+    background-color: #b6dfff;
+    z-index: 0;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #b6dfff;
+    color: black;
+}
+#link-this-is-us {
+  color: black;
+}
+#article-link {
+  color: black;
+  float: none;
+  padding: 0;
+}
+#y {
+  height: 20px;
+}
+#i {
+  height: 20px;
+}
+#f {
+  height: 20px;
+}
+#l {
+  height: 20px;
+}
